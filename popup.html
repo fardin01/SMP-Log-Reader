@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+  </head>
+
+  <body>
+    <p>Upload SMP log</p>
+      <input type='file' id='file'><br>
+
+      <table class="table col-md-12">
+        <thead>
+          <tr>
+            <th scope="col">Log header</th>
+          </tr>
+        </thead>
+        <tbody class="table-header">
+
+        </tbody>
+      </table>
+
+      <table class="table">
+        <thead>
+          <tr>
+            <th scope="col"></th>
+            <th scope="col">Date Time</th>
+            <th scope="col">Level</th>
+            <th scope="col">Component</th>
+            <th scope="col">Message</th>
+          </tr>
+        </thead>
+        <tbody class="table-body">
+        </tbody>
+      </table>
+
+
+      <div class="log"></div>
+      <script src="js/jquery.min.js"></script>
+      <script src="js/log_reader.js"></script>
+      <script src="js/bootstrap.min.js"></script>
+  </body>
+</html>
+
